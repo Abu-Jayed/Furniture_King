@@ -32,7 +32,7 @@ const responsive = {
 const Banner = () => {
     return (
         <div className='mt-40 md:mt-0'>
-            <Carousel autoPlay autoPlaySpeed={6000} rewind rewindWithAnimation responsive={responsive}>
+            <Carousel autoPlay autoPlaySpeed={5000} rewind rewindWithAnimation responsive={responsive}>
             <div >
                     <img className='bg-black relative' src={img6} />
                 </div>
