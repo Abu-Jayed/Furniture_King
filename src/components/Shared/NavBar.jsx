@@ -2,8 +2,11 @@ import { Link } from "react-router-dom";
 
 
 const NavBar = () => {
+
     const navOptions = <>
+    <li className={`hover:text-[#ff7000] transition duration-300 ease-in text-[20px] font-semibold`}>
     <Link>Home</Link>
+    </li>
     </>
     return (
         <div className="navbar bg-base-100">
@@ -19,7 +22,7 @@ const NavBar = () => {
     <a className="btn btn-ghost normal-case text-xl">King Furniture</a>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
+    <ul className="">
       {navOptions}
     </ul>
   </div>
