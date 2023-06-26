@@ -4,6 +4,7 @@ import EidDeals from "./EidDeals/EidDeals";
 import FavoriteFind from "./FavoriteFind/FavoriteFind";
 import KidsPlay from "./KidsPlay/KidsPlay";
 import OfferTitle from "./OfferTitle/OfferTitle";
+import OutDoor from "./OutDoor/OutDoor";
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <FavoriteFind></FavoriteFind>
             <KidsPlay></KidsPlay>
             <Cook></Cook>
+            <OutDoor></OutDoor>
         </div>
     );
 };
