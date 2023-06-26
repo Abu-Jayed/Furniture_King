@@ -5,6 +5,7 @@ import FavoriteFind from "./FavoriteFind/FavoriteFind";
 import KidsPlay from "./KidsPlay/KidsPlay";
 import OfferTitle from "./OfferTitle/OfferTitle";
 import OutDoor from "./OutDoor/OutDoor";
+import Plante from "./Plante/Plante";
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
             <KidsPlay></KidsPlay>
             <Cook></Cook>
             <OutDoor></OutDoor>
+            <Plante></Plante>
         </div>
     );
 };
