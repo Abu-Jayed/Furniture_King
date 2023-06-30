@@ -11,6 +11,7 @@ import img10 from "../../../assets/Favourite_find/Favrite_10.png"
 import img11 from "../../../assets/Favourite_find/Favrite_11.png"
 import Carousel from "react-multi-carousel"
 import { Link } from "react-router-dom"
+import { TypeAnimation } from "react-type-animation"
 
 const FavoriteFind = () => {
     const responsive = {
@@ -36,15 +37,30 @@ const FavoriteFind = () => {
         img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11
        ]
     return (
-        <div className="mt-10 bg-[rgb(242,233,226)]">
-            <div className="pt-10 relative">
-                <div className="flex items-center justify-center">
+        <div data-aos="fade-right">
 
-            <h1 className=" top-4 bg-[rgb(242,233,226)] absolute text-center text-5xl font-bold italic">Favourite Finds</h1>
+        <div  className="mt-10  bg-[rgb(242,233,226)]">
+            <div  className="pt-10 relative">
+                <div className="flex items-center justify-center">
+            <TypeAnimation
+            className="top-4 bg-[rgb(242,233,226)] absolute text-center text-5xl font-bold italic"
+  sequence={[
+    // Same substring at the start will only be typed once, initially
+    'Favourite Finds',
+    1000,
+    'Favourite Finds',
+    1000,
+    'Favorutie Finds'
+  ]}
+  speed={50}
+  style={{ fontSize: '2em' }}
+  repeat={Infinity}
+/>
+
                 </div>
             <hr className="w-full border border-black " />
             </div>
-            <section className=" ">
+            <section  className=" ">
             <div className='pt-5'>
             <Carousel  rewind autoPlay autoPlaySpeed={2000} rewindWithAnimation responsive={responsive}>
                 {
@@ -62,6 +78,8 @@ const FavoriteFind = () => {
         </div>
             </section>
         </div>
+        </div>
+
     );
 };
 

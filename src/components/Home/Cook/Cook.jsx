@@ -37,7 +37,7 @@ const Cook = () => {
         img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12
        ]
     return (
-        <div className="mt-10 bg-[rgb(242,233,226)">
+        <div data-aos="fade-up-right" className="mt-10 bg-[rgb(242,233,226)">
             <div className="pt-10 relative">
                 <div className="flex items-center justify-center">
 

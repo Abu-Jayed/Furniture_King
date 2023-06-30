@@ -35,7 +35,7 @@ const Plante = () => {
         img1,img2,img3,img4,img5,img6,img7,img8
        ]
     return (
-        <div className="mt-12 bg-[rgb(242,233,226)">
+        <div data-aos="" className="mt-12 bg-[rgb(242,233,226)">
             <div className="pt-10 relative">
                 <img src={thumb_1} alt="" />
             </div>
