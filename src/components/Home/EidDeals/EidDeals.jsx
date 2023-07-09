@@ -21,6 +21,7 @@ import img18 from "../../../assets/Eid-deals/deal18.jpg"
 import img19 from "../../../assets/Eid-deals/deal19.jpg"
 import img20 from "../../../assets/Eid-deals/deal20.jpg"
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 const EidDeals = () => {
     const responsive = {
@@ -42,21 +43,33 @@ const EidDeals = () => {
             items: 1
         }
     };
-    const allImg = [
-     img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15,img16,img17,img18,img19,img20
-    ]
+    // const allImg = [
+    //  img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15,img16,img17,img18,img19,img20
+    // ]
+
+    const [allImg,setAllImg] = useState([])
+
+    useEffect(()=>{
+        fetch(`http://localhost:3000/eidDeals`)
+        .then(res => res.json())
+        .then(data => setAllImg(data))
+    },[])
+
+
     return (
         <div data-aos="fade-up" className="bg-[rgb(216,200,204)] mt-20">
             <div className="p-4">
         <img src={imgDeal} alt="" />
             <div className='mt-40 md:mt-0'>
-            <Carousel rewind autoPlay autoPlaySpeed={2000} rewindWithAnimation responsive={responsive}>
+            <Carousel rewind  rewindWithAnimation responsive={responsive}>
                 {
-                    allImg.map(img => {
+                    allImg.map(data => {
                         return (
-                            <Link key={img}>
+                            <Link key={data.pid}>
                             <div className="p-3" >
-                                <img src={img} alt="" />
+                                <Link to={`eid_deals/${data.pid}`}>
+                                <img src={data.img} alt="" />
+                                </Link>
                             </div>
                             </Link>
                         )

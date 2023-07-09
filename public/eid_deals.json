@@ -1,0 +1,122 @@
+[
+  {
+    "pid":"1",
+    "pName": "1-Seater Fabric Sofa",
+    "price": 525,
+    "img": "https://images.ctfassets.net/058vu9hqon0j/6Wha27Jgh6JtVtBMTlMfLU/919360b277fc2d271bfbcae40c6304eb/EID-BONANZA-SUPERDEAL-EN-80.jpg"
+  },
+  {
+    "pid":"2",
+    "pName": "3-Seater Sofa Bed",
+    "price": 399,
+    "img": "https://images.ctfassets.net/058vu9hqon0j/6A0vV5Gpvvu02ezOoTIyoQ/9f357feb8f1497d2de51450b1933e2f1/EID-BONANZA-SUPERDEAL-EN_5-80.jpg"
+  },
+  {
+    "pid":"4",
+    "pName": "Laptop Table",
+    "price": 129,
+    "img": "https://images.ctfassets.net/058vu9hqon0j/4ZFVcNKmverUrn1bZr4Cno/e7306f61682567693f5673439ad75553/EID-BONANZA-SUPERDEAL-EN_6-80.jpg"
+  },
+  {
+    "pid":"5",
+    "pName": "End Table",
+    "price": 289,
+    "img": "https://images.ctfassets.net/058vu9hqon0j/2ZpLAXDHjm4jtwtQBqAW3G/e43a710644f84cad09f782a6fdcfdeda/EID-BONANZA-SUPERDEAL-EN_2-80.jpg"
+  },
+  {
+    "pid":"6",
+    "pName": "Kids Swing",
+    "price": 99,
+    "img": "https://images.ctfassets.net/058vu9hqon0j/2tAnNxnDaHMb20Rc2qkY4F/3a2dd0061e06c13d0fd96c4e0ad26c29/EID-BONANZA-SUPERDEAL-EN_3-80.jpg"
+  },
+  {
+    "pid":"7",
+    "pName": "2-Seater Sofa",
+    "price": 565,
+    "img": "https://images.ctfassets.net/058vu9hqon0j/YCtVe9XMnJcTLj31MKgwm/887315d99c229b8ed7b2ab275d576f3a/EID-BONANZA-SUPERDEAL-EN_4-80.jpg"
+  },
+  {
+    "pid":"8",
+    "pName": "Dining Chair",
+    "price": 229,
+    "img": "https://images.ctfassets.net/058vu9hqon0j/4Lzp4mx8HCR3dJwixR6Av3/f0454151c610c597752dd3a0d9621ab3/EID-BONANZA-SUPERDEAL-EN_7-80.jpg"
+  },
+  {
+    "pid":"9",
+    "pName": "14-Pair Shoe Cabinet",
+    "price": 265,
+    "img": "https://images.ctfassets.net/058vu9hqon0j/53TcIUAoVZe8sOwkBjFSUx/fe09a328a7cf527226e11cd217f58969/EID-BONANZA-SUPERDEAL-EN_20-80.jpg"
+  },
+  {
+    "pid":"10",
+    "pName": "Console Table With Mirror",
+    "price": 989,
+    "img": "https://images.ctfassets.net/058vu9hqon0j/6vJB8MPrtwxJPezZUTAnfx/1bc1078cacb77dd18aaff9b11600dcda/EID-BONANZA-SUPERDEAL-EN_9-80.jpg"
+  },
+  {
+    "pid":"11",
+    "pName": "Reversible Corner Sofa Left/Right",
+    "price": 1049,
+    "img": "https://images.ctfassets.net/058vu9hqon0j/4RYRGLV7Y4Lqc36uhgtyf8/328c3e44b5359dfeead043956ff50fbf/EID-BONANZA-SUPERDEAL-EN_10-80.jpg"
+  },
+  {
+    "pid":"12",
+    "pName": "Presure cooker 5 L",
+    "price": 149,
+    "img": "https://images.ctfassets.net/058vu9hqon0j/3kzNZ3522m7gGoLlAnorIK/9aaf2f3af9f4f5d870d38f6fcb0ac937/EID-BONANZA-SUPERDEAL-EN_11-80.jpg"
+  },
+  {
+    "pid":"13",
+    "pName": "12Pc Tea Set",
+    "price": 79,
+    "img": "https://images.ctfassets.net/058vu9hqon0j/465qqBLafbZ4PwT951KPDE/11d576a072f8701d6153d05accc01b33/EID-BONANZA-SUPERDEAL-EN_12-80.jpg"
+  },
+  {
+    "pid":"14",
+    "pName": "3 Pc Comforter Set",
+    "price": 135,
+    "img": "https://images.ctfassets.net/058vu9hqon0j/RRKX7T7MYOkprmtnIAtXj/c2f2461c2bf6cd6b8473cc140af0e6ec/EID-BONANZA-SUPERDEAL-EN_13-80.jpg"
+  },
+  {
+    "pid":"15",
+    "pName": "Fitted Sheet-King",
+    "price": 45,
+    "img": "https://images.ctfassets.net/058vu9hqon0j/4TivHCTfri1qpSsb7oZ5yE/218896c78384d9c12f362e9b4bc9878a/EID-BONANZA-SUPERDEAL-EN_14-80.jpg"
+  },
+  {
+    "pid":"16",
+    "pName": "Neon Hanging Chandler",
+    "price": 299,
+    "img": "https://images.ctfassets.net/058vu9hqon0j/fnWMPyINznpcbko86KV3Y/fc3af015428ff6784e240e48210efcfb/EID-BONANZA-SUPERDEAL-EN_15-80.jpg"
+  },
+  {
+    "pid":"17",
+    "pName": "Aluminium Hanghing Chandelier",
+    "price": 349,
+    "img": "https://images.ctfassets.net/058vu9hqon0j/1S4ITqJp5cDrfntepGoWQD/7ba2969a592e2a750b2f24e02dae9254/EID-BONANZA-SUPERDEAL-EN_16-80.jpg"
+  },
+  {
+    "pid":"18",
+    "pName": "Office Chair",
+    "price": 149,
+    "img": "https://images.ctfassets.net/058vu9hqon0j/2vc7StMzrtfN89mIUl13RP/3aac629b7fa18dd30a4568473152ad80/EID-BONANZA-SUPERDEAL-EN_17-80.jpg"
+  },
+  {
+    "pid":"19",
+    "pName": "Coffee Table",
+    "price": 259,
+    "img": "https://images.ctfassets.net/058vu9hqon0j/5C4HGmL239VvSry7aS7igc/3678842ae04ca9c7821b05e1160692d8/EID-BONANZA-SUPERDEAL-EN_18-80.jpg"
+  },
+  {
+    "pid":"20",
+    "pName": "14-Pair Shoe Cabinet",
+    "price": 299,
+    "img": "https://images.ctfassets.net/058vu9hqon0j/4dAnHLaGhDEZMIXbCGSGjA/bac32f8ad562a13a81feb0e92e09f5ef/EID-BONANZA-SUPERDEAL-EN_8-80.jpg"
+  },
+  {
+    "pid":"21",
+    "pName": "Night Stand",
+    "price": 385,
+    "img": "https://images.ctfassets.net/058vu9hqon0j/4Aq313GRLAZ3qNQ06Iv8qW/151c252dedac97cfb8da2c7f79f188e1/EID-BONANZA-SUPERDEAL-EN_1-80.jpg"
+  }
+]

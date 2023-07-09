@@ -1,11 +1,23 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../Provider/AuthProvider";
 
 
 const NavBar = () => {
 
+  const {user,logOut} = useContext(AuthContext)
+  console.log(user?.photoURL);
+
+  const handleLogOut = () =>{
+    return logOut()
+  }
+
     const navOptions = <>
     <li className={`hover:text-[#ff7000] transition duration-300 ease-in text-[20px] font-semibold`}>
-    <Link>Home</Link>
+    <Link to="/">Home</Link>
+    </li>
+    <li className={`hover:text-[#ff7000] transition duration-300 ease-in text-[20px] font-semibold`}>
+    <Link to="/my-cart" className="">My Cart</Link>
     </li>
     </>
     return (
@@ -22,12 +34,15 @@ const NavBar = () => {
     <a className="btn btn-ghost normal-case text-xl">King Furniture</a>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="">
+    <ul className="flex gap-5">
       {navOptions}
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Login</a>
+      {
+        user ?<> <img className="w-10 rounded-md" src={user?.photoURL} alt="" /> <button onClick={handleLogOut}>Logout</button></>: <Link to="/login" className="btn">Login</Link>
+      }
+    {/* <Link to="/login" className="btn">Login</Link> */}
   </div>
 </div>
     );
