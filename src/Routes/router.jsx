@@ -11,6 +11,7 @@ import MyCart from "../components/Pages/MyCart/MyCart";
 
   const router = createBrowserRouter([
     {
+      
       path: "/",
       element: <Layout></Layout>,
       children: [
